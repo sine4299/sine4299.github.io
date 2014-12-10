@@ -16,6 +16,11 @@ a {
   background-size: cover;
 }
 
+.portfolio { 
+  background: url("../img/seaford3.jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
+
 img {
 	max-height: 408px;
 }
@@ -123,3 +128,61 @@ article p {
 	margin-left: 20px;
 }
 
+/************************************
+GALLERY
+Used code from the pen below
+Dudley Storey
+http://codepen.io/dudleystorey/pen/YPzqgZ
+*************************************/
+
+.gallery {
+	
+	overflow: hidden;
+	position: relative;
+	width: 80%;
+	margin: 400px auto;
+}
+
+.gallery input[type="radio"] {
+	display: none;
+}
+
+.gallery label img {
+	width: 20%;
+	display: block;
+	float: left;
+	clear: left;
+	border-right: 40px;
+}
+
+.gallery label:hover {
+	cursor: pointer;
+}
+
+div#large {
+	width: 90%;
+	position: relative;
+	margin-left: 22.5%
+}
+
+div#large figure {
+	margin: 0;
+	position: absolute;
+	height: 100%;
+	opacity: 0;
+	transform: scale(.75);
+	transition: .75s all linear;
+	width: 100%
+}
+
+div#large figure img {
+	width: 100%;
+}
+
+#talon:checked~#large #tower,
+#amy:checked~#large #seaford,
+#cliff:checked~#large #seaford2,
+#fence:checked~#large #seaford3 {
+	opacity: 1;
+	transform: scale(.8);
+}

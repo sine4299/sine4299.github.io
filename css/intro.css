@@ -1,0 +1,21 @@
+/************************************
+GENERAL
+*************************************/
+
+body {
+	background-color: #3f3a3a;
+}
+
+a {
+	text-decoration: none;
+}
+
+.center {
+    width: 400px;
+    height: 200px;
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}

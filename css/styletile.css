@@ -1,0 +1,80 @@
+/* Set Your Own Margin & Padding */
+body {
+	background-color: #3f3a3a;
+}
+
+h2, h3, p, em{
+
+	margin: 0;
+	color: #fff;
+}
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	color: #fff;
+	letter-spacing: .1em;
+}
+
+p {
+	font-family: 'Playfair Display', serif;
+}
+
+a:link,
+a:visited {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+	text-transform: lowercase;
+}
+/* Layout for Style Tile*/
+img {
+	max-width: 300px;
+	max-height: 200px;
+}
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+.color-1 {
+	background: #fff;
+}
+
+.color-2 {
+	background: #6f6f6f;
+}
+
+.color-3 {
+	background: #000;
+}
+
+.pattern-1 {
+	background: url("../img/grey_wash_wall.png") repeat;
+}
+
+.pattern-2 {
+	background: url("../img/seaford.jpg") repeat;
+}
+
+.pattern-3 {
+	background: url("../img/seaford2.jpg") repeat;
+}
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}

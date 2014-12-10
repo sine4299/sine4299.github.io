@@ -1,0 +1,125 @@
+/************************************
+GENERAL
+*************************************/
+
+a {
+	text-decoration: none;
+}
+
+.home { 
+  background: url("../img/seaford2.jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.about { 
+  background: url("../img/seaford.jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
+
+img {
+	max-height: 408px;
+}
+/************************************
+HEADING
+*************************************/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	width: 100%;
+}
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 56px;
+	color: #fff;
+	margin-left: 1.25em;
+}
+
+h2 {
+	font-family: 'Abril Fatface', cursive;
+	color: #F21111;
+	letter-spacing: .1em
+}
+
+.headBack {
+	background: rgba( 0, 0, 0, 0.5);
+}
+
+/************************************
+Body
+*************************************/
+.column_1 p, .column_1 h3, .column_1 h2 {
+	text-align: left;
+	margin-left: 1.25em;
+	color: #fff;
+}
+
+.column_2 p, .column_2 h3, .column_2 h2 {
+	text-align: center;
+	color: #fff;
+}
+
+.column_3 p, .column_3 h3, .column_3 h2 {
+	text-align: right;
+	margin-right: 1.25em;
+	color: #fff;
+}
+
+.column_1, .column_2, .column_3 {
+	background: rgba( 0, 0, 0, 0.5);
+}
+
+.body_content {
+	font-size: 1.25em;
+}
+footer p {
+	font-size: 0.75em;
+	text-align: right;
+	clear: both;
+	padding-top: 50px;
+}
+
+footer nav ul {
+	text-align: center;
+}
+/************************************
+NAV
+*************************************/
+
+nav {
+	text-align: right;
+	color: #543E1C;
+}
+
+nav ul {
+	list-style: none;
+	padding-top: 60px;
+}
+
+nav li {
+	display: inline-block;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 1.50em;
+	margin: 0 5px 0 5px;
+}
+
+nav a {
+	color: #fff;
+}
+
+article p {
+	font-family: 'Playfair Display', serif;
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+
+.contact li a img {
+	max-height: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+

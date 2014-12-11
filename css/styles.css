@@ -17,7 +17,7 @@ a {
 }
 
 .portfolio { 
-  background: url("../img/seaford3.jpg") no-repeat center center fixed; 
+  background: url("../img/seaford4.jpg") no-repeat center center fixed; 
   background-size: cover;
 }
 
@@ -36,9 +36,9 @@ header {
 
 h1 {
 	font-family: 'Abril Fatface', cursive;
-	font-size: 56px;
+	font-size: 3.5em;
 	color: #fff;
-	margin-left: 1.25em;
+	margin-left: .6em;
 }
 
 h2 {
@@ -106,7 +106,7 @@ nav li {
 	display: inline-block;
 	font-family: 'Abril Fatface', cursive;
 	font-size: 1.50em;
-	margin: 0 5px 0 5px;
+	margin: 0 .9em 0 5px;
 }
 
 nav a {

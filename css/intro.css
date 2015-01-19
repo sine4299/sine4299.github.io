@@ -3,7 +3,10 @@ GENERAL
 *************************************/
 
 body {
-	background-color: #3f3a3a;
+	height: 1200px;
+	background: linear-gradient( #20A526, transparent 90%),
+				#20A526 url('../img/fog.jpg') no-repeat center;
+	background-size: cover;			
 }
 
 a {
@@ -11,7 +14,7 @@ a {
 }
 
 .center {
-    width: 400px;
+    width: 200px;
     height: 200px;
     position: fixed;
     top: 50%;
